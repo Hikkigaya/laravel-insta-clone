@@ -1,11 +1,11 @@
 repo_name: Hikkigaya/laravel-insta-clone
-report_id: 7797afeb3ba7ebf88faf49d885349e7f
+report_id: 5593573b74cd6f7359e15200462c2ae5
 repo_type: Public
-timestamp: '2023-11-11T13:19:23+00:00'
+timestamp: '2023-12-14T10:24:41+00:00'
 requested_by: Hikkigaya
 provider: github
 branch: master
-detected_tools_count: 21
+detected_tools_count: 32
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -38,7 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Muhammad Bin Naeem
   last_updated_on: 2020-07-21 11:54:43.000000000 Z
@@ -64,8 +64,20 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg
-  detection_source_url: composer.lock
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/composer.lock
   detection_source: composer.json
+  last_updated_by: Muhammad Bin Naeem
+  last_updated_on: 2020-07-21 11:54:43.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source: package.json
   last_updated_by: Muhammad Bin Naeem
   last_updated_on: 2020-07-21 11:54:43.000000000 Z
 - name: Vue.js
@@ -78,7 +90,7 @@ tools:
   category: Libraries
   sub_category: Javascript MVC Frameworks
   image_url: https://img.stackshare.io/service/3837/paeckCWC.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Muhammad Bin Naeem
   last_updated_on: 2020-07-21 11:54:43.000000000 Z
@@ -92,8 +104,19 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/package-lock.json
   detection_source: package.json
+  last_updated_by: Muhammad Bin Naeem
+  last_updated_on: 2020-07-21 11:54:43.000000000 Z
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source: public/robots.txt
   last_updated_by: Muhammad Bin Naeem
   last_updated_on: 2020-07-21 11:54:43.000000000 Z
 - name: Git
@@ -115,7 +138,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
-  detection_source_url: composer.lock
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/composer.lock
   detection_source: composer.json
   last_updated_by: Muhammad Bin Naeem
   last_updated_on: 2020-07-21 11:54:43.000000000 Z
@@ -130,6 +153,17 @@ tools:
   detection_source: package.json
   last_updated_by: Muhammad Bin Naeem
   last_updated_on: 2020-07-21 11:54:43.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source: public/robots.txt
+  last_updated_by: Muhammad Bin Naeem
+  last_updated_on: 2020-07-21 11:54:43.000000000 Z
 - name: Lodash
   description: A JavaScript utility library
   website_url: https://lodash.com
@@ -139,20 +173,10 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2438/lodash.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Muhammad Bin Naeem
   last_updated_on: 2020-07-21 11:54:43.000000000 Z
-- name: Shell
-  description: A shell is a text-based terminal, used for manipulating programs and
-    files. Shell scripts typically manage program execution.
-  website_url: https://en.wikipedia.org/wiki/Shell_script
-  open_source: false
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Languages
-  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
-  detection_source: Repo Metadata
 - name: axios
   description: Promise based HTTP client for the browser and node.js
   website_url: https://github.com/mzabriskie/axios
@@ -163,7 +187,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Muhammad Bin Naeem
   last_updated_on: 2020-07-21 11:54:43.000000000 Z
@@ -176,6 +200,136 @@ tools:
   detection_source: package.json
   last_updated_by: Muhammad Bin Naeem
   last_updated_on: 2020-07-21 11:54:43.000000000 Z
+- name: facade/ignition
+  description: A beautiful error page for Laravel applications
+  package_url: https://packagist.org/facade/ignition
+  version: 2.3.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Muhammad Bin Naeem
+  last_updated_on: 2020-07-21 11:54:43.000000000 Z
+- name: fideloper/proxy
+  description: Set trusted proxies for Laravel
+  package_url: https://packagist.org/fideloper/proxy
+  version: 4.4.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Muhammad Bin Naeem
+  last_updated_on: 2020-07-21 11:54:43.000000000 Z
+- name: fzaninotto/faker
+  description: Faker is a PHP library that generates fake data for you
+  package_url: https://packagist.org/fzaninotto/faker
+  version: 1.9.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Muhammad Bin Naeem
+  last_updated_on: 2020-07-21 11:54:43.000000000 Z
+- name: guzzlehttp/guzzle
+  description: Guzzle is a PHP HTTP client library
+  package_url: https://packagist.org/guzzlehttp/guzzle
+  version: 6.5.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Muhammad Bin Naeem
+  last_updated_on: 2020-07-21 11:54:43.000000000 Z
+- name: laravel/framework
+  description: The Laravel Framework
+  package_url: https://packagist.org/laravel/framework
+  version: 7.20.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Muhammad Bin Naeem
+  last_updated_on: 2020-07-21 11:54:43.000000000 Z
+- name: laravel/tinker
+  description: Powerful REPL for the Laravel framework
+  package_url: https://packagist.org/laravel/tinker
+  version: 2.4.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Muhammad Bin Naeem
+  last_updated_on: 2020-07-21 11:54:43.000000000 Z
+- name: laravel/ui
+  description: Laravel UI utilities and presets
+  package_url: https://packagist.org/laravel/ui
+  version: 2.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Muhammad Bin Naeem
+  last_updated_on: 2020-07-21 11:54:43.000000000 Z
+- name: mockery/mockery
+  description: Mockery is a simple yet flexible PHP mock object framework
+  package_url: https://packagist.org/mockery/mockery
+  version: 1.4.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Muhammad Bin Naeem
+  last_updated_on: 2020-07-21 11:54:43.000000000 Z
+- name: nunomaduro/collision
+  description: Cli error handling for console/command-line PHP applications
+  package_url: https://packagist.org/nunomaduro/collision
+  version: 4.2.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Muhammad Bin Naeem
+  last_updated_on: 2020-07-21 11:54:43.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: 8.5.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Muhammad Bin Naeem
+  last_updated_on: 2020-07-21 11:54:43.000000000 Z
 - name: cross-env
   description: Run scripts that set and use environment variables across platforms
   package_url: https://www.npmjs.com/cross-env
@@ -186,7 +340,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Muhammad Bin Naeem
   last_updated_on: 2020-07-21 11:54:43.000000000 Z
@@ -200,7 +354,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16357/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Muhammad Bin Naeem
   last_updated_on: 2020-07-21 11:54:43.000000000 Z
@@ -214,21 +368,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16468/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-  last_updated_by: Muhammad Bin Naeem
-  last_updated_on: 2020-07-21 11:54:43.000000000 Z
-- name: sass
-  description: A pure JavaScript implementation of Sass
-  package_url: https://www.npmjs.com/sass
-  version: 1.26.10
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16057/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Muhammad Bin Naeem
   last_updated_on: 2020-07-21 11:54:43.000000000 Z
@@ -242,7 +382,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Muhammad Bin Naeem
   last_updated_on: 2020-07-21 11:54:43.000000000 Z
@@ -256,7 +396,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Muhammad Bin Naeem
   last_updated_on: 2020-07-21 11:54:43.000000000 Z
@@ -270,7 +410,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15850/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/Hikkigaya/laravel-insta-clone/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Muhammad Bin Naeem
   last_updated_on: 2020-07-21 11:54:43.000000000 Z
